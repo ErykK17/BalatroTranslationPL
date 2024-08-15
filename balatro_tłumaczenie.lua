@@ -136,7 +136,7 @@ return {
                 name = "Szablon Jokera",
                 text = {
                     "mnoż. {X:red,C:white} X1 {} za każdy",
-                    "pusty slot na {C:attention}jokera{}",
+                    "pusty slot na {C:attention}Jokera{}",
                     "{s:0.8}Z Szablonem Jokera włącznie",
                     "{C:inactive}(obecnie {X:red,C:white} X#1# {C:inactive})"
                 }
@@ -153,14 +153,14 @@ return {
                 name = "Mim",
                 text = {
                     "Aktywuj ponownie wszystkie",
-                    "zdolności kart {C:attention}trzymanych w dłoni",
+                    "zdolności kart {C:attention}pozostałych na ręce",
                 }
             },
             j_credit_card = {
-                name = "Karta kredytowa",
+                name = "Karta Kredytowa",
                 text = {
                     "Zaciągnij dług",
-                    "do wartości {C:red}-#1#${}"
+                    "do maks. wartości {C:red}-#1#${}"
                 }
             },
             j_greedy_joker = {
@@ -201,7 +201,7 @@ return {
                     "Po wybraniu {C:attention}Stawki{},",
                     "niszczy jokera po prawej",
                     "oraz na stałe dodaje {C:attention}dwukrotność",
-                    "wartości sprzedaży do tego {C:red}mnoż.",
+                    "jego wartości sprzedaży do tego {C:red}mnoż.",
                     "{C:inactive}(obecnie {C:mult}+#1#{C:inactive} do mnoż.)"
                 }
             },
@@ -233,7 +233,7 @@ return {
                 text = {
                     "Mnoż. {X:red,C:white} X#1# {} co",
                     "{C:attention}#2#{} rozegranych rąk",
-                    "{C:inactive} pozostało #3#"
+                    "{C:inactive}#3#"
                 }
             },
             j_8_ball = {
@@ -249,19 +249,19 @@ return {
                 name = "Zmierzch",
                 text = {
                     "Aktywuj ponownie wszystkie",
-                    "punktujące karty {C:attention}ostatniej ręce{}",
+                    "punktujące karty {C:attention}w ostatniej ręce{}",
                     "rundy"
                 }
             },
             j_chaos = {
                 name = "Klaun Chaos",
                 text = {
-                    "{C:attention}#1#{} darmowe {C:green}ponowne losowanie",
+                    "{C:attention}#1#{} darmowe {C:green}Ponowne Losowanie",
                     "na każdą wizytę w sklepie"
                 }
             },
             j_misprint = {
-                name = "Błąd w druku",
+                name = "Błąd w Druku",
                 text = {
                     ""
                 }
@@ -270,8 +270,8 @@ return {
                 name = "Uniesiona Pięść",
                 text = {
                     "Dodaje do mnoż. {C:attention}dwukrotność{}",
-                    "rangi katry o {C:attention}najniższej{} randze",
-                    "znajdującej się na ręce"
+                    "rangi karty o {C:attention}najniższej{} randze",
+                    "spośród kart pozostałych na ręce"
                 }
             },
             j_fibonacci = {

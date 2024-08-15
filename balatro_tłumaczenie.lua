@@ -184,7 +184,7 @@ return {
                 name = "Gniewny Joker",
                 text = {
                     "Każda karta w kolorze {C:spades}#2#{}",
-                    "daje {C:mult}+#1#{} do mnoż",
+                    "daje {C:mult}+#1#{} do mnoż.",
                     "podczas punktacji",
                 }
             },
@@ -192,7 +192,7 @@ return {
                 name = "Żarłoczny Joker",
                 text = {
                     "Każda karta w kolorze {C:clubs}#2#{}",
-                    "daje {C:mult}+#1#{} do mnoż",
+                    "daje {C:mult}+#1#{} do mnoż.",
                     "podczas punktacji",
                 }
             },

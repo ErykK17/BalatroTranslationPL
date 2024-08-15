@@ -90,7 +90,7 @@ return {
             j_half = {
                 name = "Pół-Joker",
                 text = {
-                    "Mnoż. {C:red}+#1#{}, jeśli zagrana",
+                    "{C:red}+#1#{} do mnoż, jeśli zagrana",
                     "ręka zawiera",
                     "{C:attention}#2#{} lub mniej kart"
                 }
@@ -133,19 +133,19 @@ return {
                 }
             },
             j_stencil = {
-                name = "Joker Szablon",
+                name = "Szablon Jokera",
                 text = {
                     "mnoż. {X:red,C:white} X1 {} za każdy",
-                    "pusty slot na {C:attention}jokera{}",
-                    "{s:0.8}Z tym jokerem włącznie",
+                    "pusty slot na {C:attention}Jokera{}",
+                    "{s:0.8}Z Szablonem Jokera włącznie",
                     "{C:inactive}(obecnie {X:red,C:white} X#1# {C:inactive})"
                 }
             },
             j_four_fingers = {
                 name = "Cztery Palce",
                 text = {
-                    "Wszystkie {C:attention}kolory{} i",
-                    "{C:attention}strity{} można",
+                    "Wszystkie {C:attention}Kolory{} i",
+                    "{C:attention}Strity{} można",
                     "uzyskać z {C:attention}4{} kart"
                 }
             },
@@ -153,15 +153,14 @@ return {
                 name = "Mim",
                 text = {
                     "Aktywuj ponownie wszystkie",
-                    "zdolności kart {C:attention}posiadanych w",
-                    "{C:attention}dłoni{}"
+                    "zdolności kart {C:attention}pozostałych na ręce",
                 }
             },
             j_credit_card = {
-                name = "Karta kredytowa",
+                name = "Karta Kredytowa",
                 text = {
                     "Zaciągnij dług",
-                    "do wartości {C:red}-#1#${}"
+                    "do maks. wartości {C:red}-#1#${}"
                 }
             },
             j_greedy_joker = {
@@ -199,11 +198,11 @@ return {
             j_ceremonial = {
                 name = "Sztylet Rytualny",
                 text = {
-                    "Po wybraniu {C:attention}Ciemnej{},",
+                    "Po wybraniu {C:attention}Stawki{},",
                     "niszczy jokera po prawej",
                     "oraz na stałe dodaje {C:attention}dwukrotność",
-                    "wartości sprzedaży do tego {C:red}mnoż.",
-                    "{C:inactive}(obecnie mnoż. {C:mult}+#1#{C:inactive})"
+                    "jego wartości sprzedaży do tego {C:red}mnoż.",
+                    "{C:inactive}(obecnie {C:mult}+#1#{C:inactive} do mnoż.)"
                 }
             },
             j_banner = {
@@ -211,59 +210,58 @@ return {
                 text = {
                     "{C:chips}+#1#{} żet. za",
                     "każdą pozostałą",
-                    "zrzutkę {C:attention}"
+                    "{C:attention} wymianę"
                 }
             },
             j_mystic_summit = {
                 name = "Mistyczny Szczyt",
                 text = {
-                    "Mnoż. {C:mult}+#1#{}, gdy",
-                    "pozostanie {C:attention}#2#{} zrzutek",
-                    "w grze"
+                    "{C:mult}+#1#{} do mnoź., gdy",
+                    "pozostanie {C:attention}#2#{} wymian",
                 }
             },
             j_marble = {
                 name = "Marmurowy Joker",
                 text = {
-                    "Dodaje jedną kartę {C:attention}Kamień{} do",
+                    "Dodaje jedną {C:attention}Kamienną{} kartę",
                     "do talii",
-                    "po wybraniu {C:attention}Ciemnej{}"
+                    "po wybraniu {C:attention}Stawki{}"
                 }
             },
             j_loyalty_card = {
                 name = "Karta Lojalnościowa",
                 text = {
                     "Mnoż. {X:red,C:white} X#1# {} co",
-                    "{C:attention}#2#{} rozegranych układów",
+                    "{C:attention}#2#{} rozegranych rąk",
                     "{C:inactive}#3#"
                 }
             },
             j_8_ball = {
-                name = "Bila 8",
+                name = "Bila Ósemka",
                 text = {
-                    "{C:green}#1# na #2#{} szans za każdą",
-                    "zagraną {C:attention}8{} na stworzenie",
-                    "karty {C:tarot}Tarota{} przy punktacji",
-                    "{C:inactive}(wymaga miejsca)"
+                    "{C:green}#1# na #2#{} szans na stworzenie",
+                    "karty {C:tarot}Tarota{}",
+                    "za każdą punktującą {C:attention}8{}",
+                    "{C:inactive}(Wymaga wolnego miejsca)"
                 }
             },
             j_dusk = {
                 name = "Zmierzch",
                 text = {
-                    "Uruchom ponownie wszystkie karty",
-                    "punktujące w {C:attention}ostatniej",
-                    "{C:attention}ręce{} rundy"
+                    "Aktywuj ponownie wszystkie",
+                    "punktujące karty {C:attention}w ostatniej ręce{}",
+                    "rundy"
                 }
             },
             j_chaos = {
                 name = "Klaun Chaos",
                 text = {
-                    "{C:attention}#1#{} darmowy ponowny {C:green}rzut",
-                    "na wizytę w sklepie"
+                    "{C:attention}#1#{} darmowe {C:green}Ponowne Losowanie",
+                    "na każdą wizytę w sklepie"
                 }
             },
             j_misprint = {
-                name = "Błąd w druku",
+                name = "Błąd w Druku",
                 text = {
                     ""
                 }
@@ -272,8 +270,8 @@ return {
                 name = "Uniesiona Pięść",
                 text = {
                     "Dodaje do mnoż. {C:attention}dwukrotność{}",
-                    "rangi katry na ręce o",
-                    "{C:attention}najniższej{} randze"
+                    "rangi karty o {C:attention}najniższej{} randze",
+                    "spośród kart pozostałych na ręce"
                 }
             },
             j_fibonacci = {
